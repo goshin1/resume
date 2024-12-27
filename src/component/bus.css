@@ -1,0 +1,213 @@
+@keyframes busMove {
+    0%{
+        margin-left: -85%;
+    }
+    100%{
+        margin-left: 10%;
+    }
+}
+
+@keyframes busExit {
+    0%{
+        margin-left: -85%;
+    }
+    100%{
+        margin-left: 40%;
+    }
+}
+
+
+
+#introduce{
+    top: 5%;
+    margin-left: 25%;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    font-size: 2vw;
+    display: block;
+    border-radius: 15px;
+    position: absolute;
+    background-color: rgb(48,48,48);
+    color: rgb(255,255,255);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+}
+
+#bus{
+    width: 80%;
+    height: 60vh;
+    background-color: rgb(248, 248, 248);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    bottom: 4vh;
+    transition: all 0.2s all;
+    position: absolute;
+    margin-left: -85%;
+    animation: busMove 3s 1 forwards ease;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.3);
+}
+
+.busTop{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 10%;
+    overflow: hidden;
+    background-color: rgb(51, 219, 79);
+}
+
+.busTopLight{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    top: 0;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(105, 230, 126);
+    position: absolute;
+}
+
+.busMiddle{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(26, 26, 26);
+}
+
+.window{
+    margin: 2% 1.5%;
+    float: left;
+    width: 10%;
+    aspect-ratio: 1 / 1.5;
+    border-radius: 15px;
+    border : 10px solid rgb(48,48,48);
+    background-color: rgb(68, 68, 68);
+    overflow: hidden;
+}
+
+.windowLight{
+    margin-left: 30%;
+    border-left : 20px solid rgb(88, 88, 88);
+    border-right : 20px solid rgb(88, 88, 88);
+    width: 20%;
+    height: 100%;
+    transform : skew(30deg, 0deg);
+}
+
+
+.busEntrance{
+    margin-top: 5px;
+    width: 10%;
+    height: 86%;
+    border : 5px solid rgb(31, 31, 31);
+    background-color: rgb(56, 56, 56);
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.busEntranceBack{
+    margin-top: 5px;
+    width: 10%;
+    height: 86%;
+    background-color: rgb(31, 31, 31);
+    border : 5px solid rgb(31, 31, 31);
+    position: absolute;
+    transition: all 2s;
+    color: rgb(255,255,255);
+}
+
+/* @keyframes busEntranceDetail {
+    0%{
+        width: 10%;
+        background-color: rgb(31, 31, 31);
+        overflow: hidden;
+    }
+    90%{
+        width: 10%;
+        background-color: rgb(31, 31, 31);
+        overflow: hidden;
+    }
+    100%{
+        width: 80%;
+        background-color: rgba(31, 31, 31, 0.8);
+    }
+}
+
+.busEntranceBack:nth-child(8){
+    z-index: 1;
+    animation: busEntranceDetail 4s 1 forwards;
+} */
+
+.busEntrance > .windowLight{
+    margin-left: 40%;
+    transform : skew(20deg, 0deg);
+}
+
+@keyframes busEntranceMove {
+    0%{
+        left: 75.5%;
+    }
+    90%{
+        left: 75.5%;
+    }
+    100%{
+        left: 85%;
+    }
+}
+
+.busEntrance:nth-child(9){
+    left: 75.5%;
+    animation: busEntranceMove 3.5s 1 forwards;
+}
+
+.windowFront{
+    width: 12%;
+    aspect-ratio: 1 / 1.5;
+    float: right;
+    background-color: rgb(68, 68, 68);
+    border-bottom-left-radius: 15px;
+    overflow: hidden;
+}
+
+.busWheel{
+    position: absolute;
+    bottom: 0;
+    width: 10%;
+    aspect-ratio: 1 / 1;
+    background-color: rgb(34, 34, 34);
+    border-radius: 15px;
+}
+
+.wheel{
+    margin: 35% 5%;
+    width: 80%;
+    position: absolute;
+    aspect-ratio: 1/1;
+    border: 5px solid rgb(26, 26, 26);
+    background-color: rgb(48,48,48);
+    border-radius: 50%;
+}
+
+.wheelInner{
+    margin: 10%;
+    width: 80%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: rgb(34, 34, 34);
+}
+
+.busLight{
+    width: 3%;
+    aspect-ratio: 1/1.2;
+    background-color: rgb(221, 46, 46);
+    position: absolute;
+}
+
+.lightTop{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(255, 165, 0);
+}
