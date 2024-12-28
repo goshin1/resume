@@ -159,9 +159,9 @@ function ScrollToSection() {
   return (
     <div id='rootBody'>
       <div id='rootBtn'>
-        <button onClick={() => scrollToSection(sectionOneRef)} style={{fontWeight : activeSection === 0 ? "bold" : "none"}}>Home</button>
-        <button onClick={() => scrollToSection(sectionTwoRef)} style={{fontWeight : activeSection === 1 ? "bold" : "none"}}>About</button>
-        <button onClick={() => scrollToSection(sectionThreeRef)} style={{fontWeight : activeSection === 2 ? "bold" : "none"}}>Project</button>
+        <button onClick={() => scrollToSection(sectionOneRef)} style={{fontWeight : activeSection === 0 ? "bold" : "normal", color : activeSection === 0 ? "orange" : "white"}}>Home</button>
+        <button onClick={() => scrollToSection(sectionTwoRef)} style={{fontWeight : activeSection === 1 ? "bold" : "normal", color : activeSection === 1 ? "orange" : "white"}}>About</button>
+        <button onClick={() => scrollToSection(sectionThreeRef)} style={{fontWeight : activeSection === 2 ? "bold" : "normal", color : activeSection === 2 ? "orange" : "white"}}>Project</button>
       </div>
 
       <div className='section' ref={sectionOneRef} id="sectionOne" style={{ backgroundImage : `url(${busStop})` }}>
