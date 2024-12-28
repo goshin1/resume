@@ -69,7 +69,7 @@ export default function Platform(){
 
     let project_info = [
         {
-            title : "Depatorium",
+            title : "Depatorium - 교내 경진대회",
             content : <>
                 <h3>Puropose</h3>
                 비대면업무가 늘어난 현재, 다양한 협업 프로그램을 사용하여<br/>
@@ -99,7 +99,7 @@ export default function Platform(){
             link : "https://goshin1.github.io/depademo/"
         },
         {
-            title : "Chatpress",
+            title : "Chatpress - 개방형 클라우드 플랫폼(K-PaaS) 기반 서비스 개발·아이디어 공모전 참여",
             content : <>
                 <h3>Puropose</h3>
                 평소 문서 프로그램을 사용하게 되는 경우가 많습니다.이력서를 작성하거나,<br/>
@@ -128,7 +128,7 @@ export default function Platform(){
             link : "https://goshin1.github.io/chatpressdemo/"
         },
         {
-            title : "영어단어정복 ABC",
+            title : "영어단어정복 ABC - 개인 프로젝트",
             content : <>
                 <h3>Puropose</h3>
                 영어를 공부하려는데 사용하려는 애플리케이션이 웬만해서는 유료였고<br/> 
@@ -156,7 +156,7 @@ export default function Platform(){
             link : "https://goshin1.github.io/englishdemo/"
         },
         {
-            title : "Universocial",
+            title : "Universocial - 팀 프로젝트",
             content : <>    
                 <h3>Puropose</h3>
                 코로나로 인해 강의가 비대면으로 시행하게 되면서 수업을 이해하는데에<br/>
@@ -183,7 +183,7 @@ export default function Platform(){
             link : "none"
         },
         {
-            title : "질병관리본부",
+            title : "질병관리본부 - 개인 프로젝트",
             content : <>
                 <h3>Puropose</h3>
                 프론트 개발 역량을 늘리고자 질병관리본부에 디자인 만 참고하여<br/>

@@ -75,15 +75,15 @@ export default function BusInner(){
                     </div>
                     <div className="detailBlock">
                         <h3>Education</h3>
-                        동양미래대학교 컴퓨터소프트웨어공학과<br/>
-                        세명컴퓨터고등학교 스마트콘텐츠과
+                        동양미래대학교 컴퓨터소프트웨어공학과 2020.03 ~ 2025.02<br/>
+                        세명컴퓨터고등학교 스마트콘텐츠과 2017.03 ~ 2020.02
                     </div>
                     <div className="detailBlock">
                         <h3>License</h3>
-                        웹디자인기능사<br/>
-                        컴퓨터웹그래픽스기능사<br/>
-                        정보처리기능사<br/>
-                        GTQ 1급
+                        웹디자인기능사 2019.07.12<br/>
+                        컴퓨터웹그래픽스기능사 2019.04.26<br/>
+                        정보처리기능사 2017.12.27<br/>
+                        그래픽기술자격 GTQ 1급 2017.08.11
                     </div>
                     
                 </div>

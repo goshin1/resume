@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/resume/static/css/main.504a89fb.css",
+    "main.js": "/resume/static/js/main.cc5ca525.js",
+    "static/js/488.9c92ff38.chunk.js": "/resume/static/js/488.9c92ff38.chunk.js",
+    "static/media/home-responsive.gif": "/resume/static/media/home-responsive.8c26d1f3a75aabe3c1fb.gif",
+    "static/media/mise.gif": "/resume/static/media/mise.841373bbb771711c9b11.gif",
+    "static/media/ondo.gif": "/resume/static/media/ondo.9e5531ac38cea9c81194.gif",
+    "static/media/home-header.gif": "/resume/static/media/home-header.69bb6f859bcca94392d1.gif",
+    "static/media/city.jpg": "/resume/static/media/city.6bdbc4d7446bbcc0caec.jpg",
+    "static/media/subway.jpg": "/resume/static/media/subway.e3e553c4aa926515e7e0.jpg",
+    "static/media/home.PNG": "/resume/static/media/home.8b7ca193359bf59c0e7c.PNG",
+    "static/media/busStop.jpg": "/resume/static/media/busStop.c4ea1bcf0712222b720c.jpg",
+    "static/media/main_before.png": "/resume/static/media/main_before.2bcfa99de0f2c8eec15a.png",
+    "static/media/chat.png": "/resume/static/media/chat.77df5cbe070ab4e04955.png",
+    "static/media/main.png": "/resume/static/media/main.18487cbdbd5cba0f89c2.png",
+    "static/media/project_join_create.png": "/resume/static/media/project_join_create.49cf7b02d877daff086f.png",
+    "static/media/leader_work_detail.png": "/resume/static/media/leader_work_detail.597af5c43536cf1b598c.png",
+    "static/media/document_image.png": "/resume/static/media/document_image.89a3acb51b2568ad957e.png",
+    "static/media/login.png": "/resume/static/media/login.b74c4edc87c4c7cb7507.png",
+    "static/media/document_report.png": "/resume/static/media/document_report.376b3d579505509cc928.png",
+    "static/media/rooms.png": "/resume/static/media/rooms.f0528d5f5a9fdb0b0041.png",
+    "static/media/board.png": "/resume/static/media/board.74c432b0d9d58c719970.png",
+    "static/media/calculator.PNG": "/resume/static/media/calculator.cba1b3ac62c6b8947355.PNG",
+    "static/media/login.PNG": "/resume/static/media/login.e5fc8b4703f7701a37c4.PNG",
+    "static/media/admin.png": "/resume/static/media/admin.f6d9326f3bb7fdac69c8.png",
+    "static/media/message.png": "/resume/static/media/message.6ee5f8d5068dff6fd707.png",
+    "static/media/word_edit.PNG": "/resume/static/media/word_edit.463f45042a7b27494969.PNG",
+    "static/media/main_black.PNG": "/resume/static/media/main_black.ab38bb4c9a9c74d0067f.PNG",
+    "static/media/setting.PNG": "/resume/static/media/setting.f3f9aa57c379b466eef6.PNG",
+    "static/media/word_fill.PNG": "/resume/static/media/word_fill.1dffed9aef8f8de8d6bb.PNG",
+    "index.html": "/resume/index.html",
+    "main.504a89fb.css.map": "/resume/static/css/main.504a89fb.css.map",
+    "main.cc5ca525.js.map": "/resume/static/js/main.cc5ca525.js.map",
+    "488.9c92ff38.chunk.js.map": "/resume/static/js/488.9c92ff38.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.504a89fb.css",
+    "static/js/main.cc5ca525.js"
+  ]
+}
