@@ -393,3 +393,89 @@
     color: rgb(255,255,255);
     text-align: center;
 }
+
+#slidePlay{
+    margin: -8% 45%;
+    width: 10%;
+    height: 40px;
+    background-color: rgb(48,48,48);
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.slideStick{
+    width: 5px;
+    background-color: rgb(255,255,255);
+    position: absolute;
+}
+
+@keyframes firstStop {
+    0%{
+        margin-left: 45%;
+        margin-top: 5%;
+        height: 20px;
+        transform: rotate(-45deg);
+    }
+    100%{
+        margin-top: 5%;
+        margin-left: 35%;
+        height: 30px;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes firstPlay {
+    0%{
+        margin-top: 5%;
+        margin-left: 35%;
+        height: 30px;
+        transform: rotate(0deg);
+    }
+    100%{
+        margin-left: 45%;
+        margin-top: 5%;
+        height: 20px;
+        transform: rotate(-45deg);
+    }
+}
+
+
+@keyframes secondStop {
+    0%{
+        margin-left: 45%;
+        margin-top: 25%;
+        height: 20px;
+        transform: rotate(45deg);
+    }
+    100%{
+        margin-top: 5%;
+        margin-left: 55%;
+        height: 30px;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes secondPlay {
+    0%{
+        margin-top: 5%;
+        margin-left: 55%;
+        height: 30px;
+        transform: rotate(0deg);
+    }
+    100%{
+        margin-left: 45%;
+        margin-top: 25%;
+        height: 20px;
+        transform: rotate(45deg);
+    }
+}
+
+
+#firstStick{
+    animation: firstPlay 0.5s 1 forwards ease;
+}
+
+#secondStick{
+    animation: secondPlay 0.5s 1 forwards ease;
+}

@@ -9,6 +9,8 @@ export default function Platform(){
     const windowRight = document.getElementById("windowRight");
     const projectDetail = document.getElementById("projectDetail");
 
+
+
     function slideAnimation(){
         projectDetail.style.animation = "none";
         subwayDoorLeft.style.animation = "none";
@@ -29,6 +31,8 @@ export default function Platform(){
     const [num, setNum] = useState(0);
     const [slideNum, setSlideNum] = useState(0);
     const [detailImage, setDetailImage] = useState('none');
+    const [isRunning, setIsRunning] = useState(true);
+
     const imgs = [
         [
             require('../imgs/depatorium/login.png'),
@@ -207,16 +211,32 @@ export default function Platform(){
         },
     ]
 
-    // useEffect(() => {
-    //     let temp = document.getElementsByClassName("slideImg")
-    //     let value = (document.getElementById("slideContainer").offsetWidth - temp[slideNum].offsetWidth);
-    //     if(value > 0){
-    //         temp[slideNum].style.marginLeft = `${value / 2}px`
-    //     }else{
-    //         temp[slideNum].style.marginLeft = `${value / 2}px`
-    //     }
+    const toggleCounter = () => {
+        setIsRunning(prev => !prev); // 카운팅 기능 켜고 끄기
+      };
 
-    // }, [slideNum, num])
+    useEffect(() => {
+        let interval;
+        const firstStick = document.getElementById("firstStick");
+        const secondStick = document.getElementById("secondStick");
+
+        if (isRunning) {
+          // 카운팅 기능이 켜져 있을 때, 1초마다 카운트 증가
+          interval = setInterval(() => {
+            setSlideNum(prevCount => (prevCount + 1) % 5); // 0부터 5까지 증가 후 0으로 리셋
+          }, 2000);
+          firstStick.style.animation = "firstPlay 0.5s 1 forwards ease";
+          secondStick.style.animation = "secondPlay 0.5s 1 forwards ease";
+        } else {
+          // 카운팅 기능이 꺼졌을 때, interval을 정리하여 카운팅 멈춤
+          clearInterval(interval);
+          firstStick.style.animation = "firstStop 0.5s 1 forwards ease";
+          secondStick.style.animation = "secondStop 0.5s 1 forwards ease";
+        }
+    
+        // 컴포넌트가 unmount될 때 interval 정리
+        return () => clearInterval(interval);
+      }, [isRunning]);
 
     return <div id="platform">
         <div id="imageDetail" style={{display : detailImage}} onClick={() => {
@@ -340,6 +360,12 @@ export default function Platform(){
                         }, 200)
                     }}>&gt;</button>
                 </div>  
+                <div id="slidePlay" onClick={() => {
+                    toggleCounter();
+                }}>
+                    <div className="slideStick" id="firstStick"></div>
+                    <div className="slideStick" id="secondStick"></div>
+                </div>
             </div>
             <div className="detailBox">
                 <h2>
