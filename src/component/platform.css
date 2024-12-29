@@ -308,14 +308,14 @@
     border: 10px solid rgb(48,48,48);
     overflow: hidden;
     position: relative;
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(173, 173, 173);
 }
 
 .slideImg{
-    /* margin : 0 -25%;
-    width: 150%; */
-    margin: 0 auto;
-    height: 100%;
+    /* margin : 0 -25%; */
+    width: 100%; 
+    /* margin: 0 auto; */
+    /* height: 100%; */
     position: absolute;
     transition: all 0.2s;
 }

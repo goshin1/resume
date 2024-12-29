@@ -27,6 +27,7 @@ function ScrollToSection() {
     }
   };
 
+  console.log(activeSection)
 
 
   // 스크롤 이벤트 처리 함수
@@ -38,10 +39,10 @@ function ScrollToSection() {
 
     if (event.deltaY > 0) { // 아래로 스크롤 (deltaY > 0)
       // 아래로 스크롤 시 활성화된 섹션을 한 칸 아래로 이동
-      nextSection = Math.min(activeSection + 1, 2); // 섹션의 마지막 번호는 2
+      nextSection = activeSection + 1 > 2 ? 2 : activeSection + 1
     } else if (event.deltaY < 0) { // 위로 스크롤 (deltaY < 0)
       // 위로 스크롤 시 활성화된 섹션을 한 칸 위로 이동
-      nextSection = Math.max(activeSection - 1, 0); // 섹션의 첫 번째 번호는 0
+      nextSection = activeSection - 1 < 0 ? 0 : activeSection - 1
     }
 
     if (nextSection !== activeSection) {

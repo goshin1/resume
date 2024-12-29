@@ -52,11 +52,11 @@ export default function Platform(){
             require('../imgs/abc/word_fill.PNG')
         ],
         [
-            require('../imgs/universocial/main_before.png'),
-            require('../imgs/universocial/board.png'),
-            require('../imgs/universocial/calculator.PNG'),
-            require('../imgs/universocial/message.png'),
-            require('../imgs/universocial/admin.png')
+            require('../imgs/universocial/main.PNG'),
+            require('../imgs/universocial/board.PNG'),
+            require('../imgs/universocial/calculter.PNG'),
+            require('../imgs/universocial/message.PNG'),
+            require('../imgs/universocial/admin.PNG')
         ],
         [
             require('../imgs/disease/home.PNG'),
