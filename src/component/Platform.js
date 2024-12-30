@@ -28,7 +28,7 @@ export default function Platform(){
         
     }
 
-    const [num, setNum] = useState(0);
+    const [num, setNum] = useState(1);
     const [slideNum, setSlideNum] = useState(0);
     const [detailImage, setDetailImage] = useState('none');
     const [isRunning, setIsRunning] = useState(true);
