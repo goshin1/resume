@@ -378,8 +378,8 @@ export default function Platform(){
                     {project_info[num].stack}
                 </div>
                 <div>
-                    <a className="gitBlock" href={project_info[num].github}>Github</a>
-                    <a className="gitBlock" style={{display : project_info[num].link !== "none" ? "block" : "none"}} href={project_info[num].link}>Demo</a>
+                    <a className="gitBlock" target="_blank" href={project_info[num].github}>Github</a>
+                    <a className="gitBlock" target="_blank" style={{display : project_info[num].link !== "none" ? "block" : "none"}} href={project_info[num].link}>Demo</a>
                 </div> 
             </div>
         </div>
