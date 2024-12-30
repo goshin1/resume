@@ -166,7 +166,7 @@ function ScrollToSection() {
       </div>
 
       <div className='section' ref={sectionOneRef} id="sectionOne" style={{ backgroundImage : `url(${busStop})` }}>
-        <h1 id='introduce'>계기는 단순하게 개발은 끈질긴<span style={{color : 'orange'}}>웹 개발자</span> 고신원입니다.</h1>
+        <h1 id='introduce'>계기는 단순하게 개발은 끈질긴 <span style={{color : 'orange'}}>웹개발자</span> 고신원입니다.</h1>
         <Bus></Bus>
       </div>
       <div className='section' ref={sectionTwoRef} id="sectionTwo" style={{ backgroundColor: 'rgb(40,40,40)' }}>
