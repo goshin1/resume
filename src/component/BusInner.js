@@ -111,6 +111,7 @@ export default function BusInner(){
                             <h3>Tools</h3>
                             <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=for-the-badge&logo=Visual Studio Code&logoColor=white"/>
                             <img src="https://img.shields.io/badge/intellijidea-000000?style=for-the-badge&logo=intellijidea&logoColor=white"/>
+                            <img src="https://img.shields.io/badge/Eclipse-17249b?style=for-the-badge&logo=Eclipse&logoColor=white"/>
                             <img src="https://img.shields.io/badge/Adobe Photoshop-31A8FF?style=for-the-badge&logo=Adobe Photoshop&logoColor=white"/>
                             <img src="https://img.shields.io/badge/Adobe Illustrator-FF9A00?style=for-the-badge&logo=Adobe Illustrator&logoColor=white"/>
                             <img src="https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=Github&logoColor=white"/>
@@ -118,9 +119,7 @@ export default function BusInner(){
                         
                         
                     </div>
-                    <div>
-                        
-                    </div>
+                    
                 </div>
             </div>
         </div>

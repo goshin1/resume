@@ -28,25 +28,25 @@ export default function Platform(){
         
     }
 
-    const [num, setNum] = useState(1);
+    const [num, setNum] = useState(0);
     const [slideNum, setSlideNum] = useState(0);
     const [detailImage, setDetailImage] = useState('none');
     const [isRunning, setIsRunning] = useState(true);
 
     const imgs = [
         [
-            require('../imgs/depatorium/login.png'),
-            require('../imgs/depatorium/main.png'),
-            require('../imgs/depatorium/project_join_create.png'),
-            require('../imgs/depatorium/chat.png'),
-            require('../imgs/depatorium/leader_work_detail.png')
-        ],
-        [
             require('../imgs/chatpress/login.png'),
             require('../imgs/chatpress/main.png'),
             require('../imgs/chatpress/rooms.png'),
             require('../imgs/chatpress/document_image.png'),
             require('../imgs/chatpress/document_report.png')
+        ],
+        [
+            require('../imgs/depatorium/login.png'),
+            require('../imgs/depatorium/main.png'),
+            require('../imgs/depatorium/project_join_create.png'),
+            require('../imgs/depatorium/chat.png'),
+            require('../imgs/depatorium/leader_work_detail.png')
         ],
         [
             require('../imgs/abc/login.PNG'),
@@ -73,7 +73,38 @@ export default function Platform(){
 
     let project_info = [
         {
+            title : "Chatpress - 개방형 클라우드 플랫폼(K-PaaS) 기반 서비스 개발·아이디어 공모전 참여",
+            date : "2024.08 ~ 2024.10",
+            content : <>
+                <h3>Puropose</h3>
+                평소 문서 프로그램을 사용하게 되는 경우가 많습니다.이력서를 작성하거나,<br/>
+                보고서를 수정하거나, 또는 공지사항을 확인하기 위해 사용합니다.<br/>
+                하지만, 상대방과 같은 프로그램을 써야 된다는 점으로 인해 다양한 문서 프로그램을 사용하게 되었습니다.<br/>
+                이러한 불편함을 해결하고자 어디서든 사용할 수 있는 웹을 통해 문서 작성 사이트를 제작하게 되었습니다.
+                <h3>Function</h3>
+                <ul>
+                    <li>문서 작성 및 편집, 공유 기능</li>
+                    <li>실시간 대화 기능</li>
+                    <li>메일을 통한 본인 인증</li>
+                    <li>Spring Security를 통한 보안 강화</li>
+                </ul>
+                <h3>Stack</h3>
+            </>,
+            stack : [
+                <img src="https://img.shields.io/badge/Html5-e22121?style=for-the-badge&logo=Html5&logoColor=white" key={uuid()}/>,
+                <img src="https://img.shields.io/badge/Css3-2089eb?style=for-the-badge&logo=Css3&logoColor=white" key={uuid()}/>,
+                <img src="https://img.shields.io/badge/Javascript-eba420?style=for-the-badge&logo=Javascript&logoColor=white" key={uuid()}/>,
+                <img src="https://img.shields.io/badge/React-2185e2?style=for-the-badge&logo=React&logoColor=white" key={uuid()}/>,
+                <img src="https://img.shields.io/badge/JAVA-000000?style=for-the-badge&logo=Java%20IDEA&logoColor=white" key={uuid()}/>,
+                <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring%20Boot&logoColor=white" key={uuid()}/>,
+                <img src="https://img.shields.io/badge/Mysql-255bcf?style=for-the-badge&logo=Mysql&logoColor=white" key={uuid()}/>
+            ],
+            github : "https://github.com/goshin1/ChatPress_Front",
+            link : "https://goshin1.github.io/chatpressdemo/"
+        },
+        {
             title : "Depatorium - 교내 경진대회",
+            date : "2024.03 ~ 2024.11",
             content : <>
                 <h3>Puropose</h3>
                 비대면업무가 늘어난 현재, 다양한 협업 프로그램을 사용하여<br/>
@@ -103,36 +134,8 @@ export default function Platform(){
             link : "https://goshin1.github.io/depademo/"
         },
         {
-            title : "Chatpress - 개방형 클라우드 플랫폼(K-PaaS) 기반 서비스 개발·아이디어 공모전 참여",
-            content : <>
-                <h3>Puropose</h3>
-                평소 문서 프로그램을 사용하게 되는 경우가 많습니다.이력서를 작성하거나,<br/>
-                보고서를 수정하거나, 또는 공지사항을 확인하기 위해 사용합니다.<br/>
-                하지만, 상대방과 같은 프로그램을 써야 된다는 점으로 인해 다양한 문서 프로그램을 사용하게 되었습니다.<br/>
-                이러한 불편함을 해결하고자 어디서든 사용할 수 있는 웹을 통해 문서 작성 사이트를 제작하게 되었습니다.
-                <h3>Function</h3>
-                <ul>
-                    <li>문서 작성 및 편집, 공유 기능</li>
-                    <li>실시간 대화 기능</li>
-                    <li>메일을 통한 본인 인증</li>
-                    <li>Spring Security를 통한 보안 강화</li>
-                </ul>
-                <h3>Stack</h3>
-            </>,
-            stack : [
-                <img src="https://img.shields.io/badge/Html5-e22121?style=for-the-badge&logo=Html5&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Css3-2089eb?style=for-the-badge&logo=Css3&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Javascript-eba420?style=for-the-badge&logo=Javascript&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/React-2185e2?style=for-the-badge&logo=React&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/JAVA-000000?style=for-the-badge&logo=Java%20IDEA&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring%20Boot&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Mysql-255bcf?style=for-the-badge&logo=Mysql&logoColor=white" key={uuid()}/>
-            ],
-            github : "https://github.com/goshin1/ChatPress_Front",
-            link : "https://goshin1.github.io/chatpressdemo/"
-        },
-        {
             title : "영어단어정복 ABC - 개인 프로젝트",
+            date : " 2023.03 ~ 2023.05",
             content : <>
                 <h3>Puropose</h3>
                 영어를 공부하려는데 사용하려는 애플리케이션이 웬만해서는 유료였고<br/> 
@@ -161,6 +164,7 @@ export default function Platform(){
         },
         {
             title : "Universocial - 팀 프로젝트",
+            date : "2021.03 ~ 2021.12",
             content : <>    
                 <h3>Puropose</h3>
                 코로나로 인해 강의가 비대면으로 시행하게 되면서 수업을 이해하는데에<br/>
@@ -188,6 +192,7 @@ export default function Platform(){
         },
         {
             title : "질병관리본부 - 개인 프로젝트",
+            date : "2020.06.21 ~ 2020.06.27",
             content : <>
                 <h3>Puropose</h3>
                 프론트 개발 역량을 늘리고자 질병관리본부에 디자인 만 참고하여<br/>
@@ -371,6 +376,7 @@ export default function Platform(){
                 <h2>
                     {project_info[num].title}
                 </h2>
+                {project_info[num].date}<br/>
                 <div>
                     {project_info[num].content}
                 </div>
