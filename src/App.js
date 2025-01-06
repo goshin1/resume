@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, act } from 'react';
 import Bus  from './component/Bus';
 import './App.css'
 import busStop from './imgs/busStop.jpg';
@@ -16,6 +16,7 @@ function ScrollToSection() {
 
   // 현재 활성화된 섹션 추적
   const [activeSection, setActiveSection] = useState(0); // 초기값을 0으로 설정
+  const [num, setNum] = useState(0);
 
   // 스크롤 이동 함수
   const scrollToSection = (sectionRef) => {
@@ -27,8 +28,28 @@ function ScrollToSection() {
     }
   };
 
-  console.log(activeSection)
+  function slideAnimation(){
+    const subwayDoorLeft = document.getElementById("subwayDoorLeft");
+    const subwayDoorRight = document.getElementById("subwayDoorRight");
+    const windowLeft = document.getElementById("windowLeft");
+    const windowRight = document.getElementById("windowRight");
+    const projectDetail = document.getElementById("projectDetail");
 
+    projectDetail.style.animation = "none";
+    subwayDoorLeft.style.animation = "none";
+    subwayDoorRight.style.animation = "none";
+    windowLeft.style.animation = "none";
+    windowRight.style.animation = "none";
+
+    setTimeout(() => {
+        projectDetail.style.animation = "projectNext 3s 1 forwards ease-in";
+        subwayDoorLeft.style.animation = "subwayNextLeft 3s 1 forwards ease-in";
+        subwayDoorRight.style.animation = "subwayNextRight 3s 1 forwards ease-in";
+        windowLeft.style.animation = "platformNextLeft 3s 1 forwards ease-in";
+        windowRight.style.animation = "platformNextRight 3s 1 forwards ease-in";
+    }, 100);
+    
+}
 
   // 스크롤 이벤트 처리 함수
   const handleWheel = (event) => {
@@ -64,6 +85,7 @@ function ScrollToSection() {
     // section 1
     const entrance = document.getElementById("entrance");
     const bus = document.getElementById("bus");
+    const busEntranceDetail = document.getElementById("busEntranceDetail");
 
     // section 2
     const selfDetail = document.getElementById("selfDetail");
@@ -76,7 +98,6 @@ function ScrollToSection() {
     const projectDetail = document.getElementById("projectDetail");
 
 
-
     if(activeSection === 0){
       selfDetail.style.animation = "none";
       subwayDoorLeft.style.animation = "none";
@@ -85,9 +106,11 @@ function ScrollToSection() {
       windowRight.style.animation = "none";
       projectDetail.style.animation = "none";
 
+      busEntranceDetail.style.animation = "busEntranceDetail 4s 1 forwards";
       entrance.style.animation = "busEntranceMove 3.5s 1 forwards";
       bus.style.animation = "busMove 3s 1 forwards ease";
     }else if(activeSection === 1){
+      busEntranceDetail.style.animation = "none";
       entrance.style.animation = "none";
       bus.style.animation = "none";
       subwayDoorLeft.style.animation = "none";
@@ -98,6 +121,7 @@ function ScrollToSection() {
 
       selfDetail.style.animation = "selfMove 0.5s 1 forwards ease";
     }else if(activeSection === 2){
+      busEntranceDetail.style.animation = "none";
       selfDetail.style.animation = "none";
       entrance.style.animation = "none";
       bus.style.animation = "none";
@@ -108,6 +132,7 @@ function ScrollToSection() {
       windowRight.style.animation = "platformRight 1.5s 1 forwards ease-in";
       projectDetail.style.animation = "projectInit 2s 1 forwards ease-in";
     }else{
+      busEntranceDetail.style.animation = "none";
       selfDetail.style.animation = "none";
       entrance.style.animation = "none";
       bus.style.animation = "none";
@@ -125,10 +150,6 @@ function ScrollToSection() {
     return () => {
       window.removeEventListener('wheel', handleWheel);
     };
-
-
-    
-
 
   }, [activeSection]); // activeSection 변경 시마다 리스너가 다시 등록됨
 
@@ -176,7 +197,7 @@ function ScrollToSection() {
       <div className='section' ref={sectionThreeRef} id="sectionThree" style={{ backgroundImage : `url(${subwayBack})`, backgroundSize : 'cover' }}>
         <div style={{backgroundColor : 'rgba(0,0,0,0.5)', width : '100%', height : '100%', position : 'absolute', backdropFilter : 'blur(5px)'}}></div>
         <Subway></Subway>
-        <Platform></Platform>
+        <Platform setNum={setNum} num={num}></Platform>
       </div>
       
     </div>

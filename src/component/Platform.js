@@ -2,14 +2,12 @@ import "./platform.css"
 import { useEffect, useState } from "react";
 import uuid from "react-uuid";
 
-export default function Platform(){
+export default function Platform(props){
     const subwayDoorLeft = document.getElementById("subwayDoorLeft");
     const subwayDoorRight = document.getElementById("subwayDoorRight");
     const windowLeft = document.getElementById("windowLeft");
     const windowRight = document.getElementById("windowRight");
     const projectDetail = document.getElementById("projectDetail");
-
-
 
     function slideAnimation(){
         projectDetail.style.animation = "none";
@@ -28,7 +26,7 @@ export default function Platform(){
         
     }
 
-    const [num, setNum] = useState(0);
+    // const [num, setNum] = useState(0);
     const [slideNum, setSlideNum] = useState(0);
     const [detailImage, setDetailImage] = useState('none');
     const [isRunning, setIsRunning] = useState(true);
@@ -91,13 +89,13 @@ export default function Platform(){
                 <h3>Stack</h3>
             </>,
             stack : [
-                <img src="https://img.shields.io/badge/Html5-e22121?style=for-the-badge&logo=Html5&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Css3-2089eb?style=for-the-badge&logo=Css3&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Javascript-eba420?style=for-the-badge&logo=Javascript&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/React-2185e2?style=for-the-badge&logo=React&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/JAVA-000000?style=for-the-badge&logo=Java%20IDEA&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring%20Boot&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Mysql-255bcf?style=for-the-badge&logo=Mysql&logoColor=white" key={uuid()}/>
+                <img src="https://img.shields.io/badge/Html5-e22121?style=for-the-badge&logo=Html5&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/Css3-2089eb?style=for-the-badge&logo=Css3&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/Javascript-eba420?style=for-the-badge&logo=Javascript&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/React-2185e2?style=for-the-badge&logo=React&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/JAVA-000000?style=for-the-badge&logo=Java%20IDEA&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring%20Boot&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/Mysql-255bcf?style=for-the-badge&logo=Mysql&logoColor=white" key={uuid()} alt="stack"/>
             ],
             github : "https://github.com/goshin1/ChatPress_Front",
             link : "https://goshin1.github.io/chatpressdemo/"
@@ -121,13 +119,13 @@ export default function Platform(){
                 <h3>Stack</h3>
             </>,
             stack : [
-                <img src="https://img.shields.io/badge/Html5-e22121?style=for-the-badge&logo=Html5&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Css3-2089eb?style=for-the-badge&logo=Css3&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Javascript-eba420?style=for-the-badge&logo=Javascript&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/React-2185e2?style=for-the-badge&logo=React&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/JAVA-000000?style=for-the-badge&logo=Java%20IDEA&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring%20Boot&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Mysql-255bcf?style=for-the-badge&logo=Mysql&logoColor=white" key={uuid()}/>
+                <img src="https://img.shields.io/badge/Html5-e22121?style=for-the-badge&logo=Html5&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/Css3-2089eb?style=for-the-badge&logo=Css3&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/Javascript-eba420?style=for-the-badge&logo=Javascript&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/React-2185e2?style=for-the-badge&logo=React&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/JAVA-000000?style=for-the-badge&logo=Java%20IDEA&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring%20Boot&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/Mysql-255bcf?style=for-the-badge&logo=Mysql&logoColor=white" key={uuid()} alt="stack"/>
                             
             ],
             github : "https://github.com/goshin1/Depatorium",
@@ -151,13 +149,13 @@ export default function Platform(){
                 <h3>Stack</h3>
             </>,
             stack : [
-                <img src="https://img.shields.io/badge/Html5-e22121?style=for-the-badge&logo=Html5&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Css3-2089eb?style=for-the-badge&logo=Css3&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Javascript-eba420?style=for-the-badge&logo=Javascript&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/React-2185e2?style=for-the-badge&logo=React&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Postgresql-234da8?style=for-the-badge&logo=Postgresql&logoColor=white" key={uuid()}/>
+                <img src="https://img.shields.io/badge/Html5-e22121?style=for-the-badge&logo=Html5&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/Css3-2089eb?style=for-the-badge&logo=Css3&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/Javascript-eba420?style=for-the-badge&logo=Javascript&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/React-2185e2?style=for-the-badge&logo=React&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/Postgresql-234da8?style=for-the-badge&logo=Postgresql&logoColor=white" key={uuid()} alt="stack"/>
             ],
             github : "https://github.com/goshin1/english_total",
             link : "https://goshin1.github.io/englishdemo/"
@@ -181,11 +179,11 @@ export default function Platform(){
                 <h3>Stack</h3>
             </>,
             stack : [
-                <img src="https://img.shields.io/badge/Html5-e22121?style=for-the-badge&logo=Html5&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Css3-2089eb?style=for-the-badge&logo=Css3&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Javascript-eba420?style=for-the-badge&logo=Javascript&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/JAVA-000000?style=for-the-badge&logo=Java%20IDEA&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Mysql-255bcf?style=for-the-badge&logo=Mysql&logoColor=white" key={uuid()}/>
+                <img src="https://img.shields.io/badge/Html5-e22121?style=for-the-badge&logo=Html5&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/Css3-2089eb?style=for-the-badge&logo=Css3&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/Javascript-eba420?style=for-the-badge&logo=Javascript&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/JAVA-000000?style=for-the-badge&logo=Java%20IDEA&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/Mysql-255bcf?style=for-the-badge&logo=Mysql&logoColor=white" key={uuid()} alt="stack"/>
             ],
             github : "https://github.com/goshin1/universocial",
             link : "none"
@@ -195,9 +193,9 @@ export default function Platform(){
             date : "2020.06.21 ~ 2020.06.27",
             content : <>
                 <h3>Puropose</h3>
-                프론트 개발 역량을 늘리고자 질병관리본부에 디자인 만 참고하여<br/>
+                프론트 개발 역량을 늘리고자 질병관리본부에 디자인을 참고하여<br/>
                 동일한 사이트를 만들었습니다. <br/>
-                메인, 비브리오패혈증, 미세먼지 페이지를 제작하였습니다.
+                메인 페이지, 온열질환, 비브리오, 미세먼지 페이지 등을 제작하였습니다.
                 <h3>Function</h3>
                 <ul>
                     <li>반응형 웹 구성</li>
@@ -207,9 +205,9 @@ export default function Platform(){
                 <h3>Stack</h3>
             </>,
             stack : [
-                <img src="https://img.shields.io/badge/Html5-e22121?style=for-the-badge&logo=Html5&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Css3-2089eb?style=for-the-badge&logo=Css3&logoColor=white" key={uuid()}/>,
-                <img src="https://img.shields.io/badge/Javascript-eba420?style=for-the-badge&logo=Javascript&logoColor=white" key={uuid()}/>,
+                <img src="https://img.shields.io/badge/Html5-e22121?style=for-the-badge&logo=Html5&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/Css3-2089eb?style=for-the-badge&logo=Css3&logoColor=white" key={uuid()} alt="stack"/>,
+                <img src="https://img.shields.io/badge/Javascript-eba420?style=for-the-badge&logo=Javascript&logoColor=white" key={uuid()} alt="stack"/>,
             ],
             github : "https://github.com/goshin1/diseaseMange.github.io",
             link : "https://goshin1.github.io/diseaseMange.github.io/"
@@ -218,7 +216,8 @@ export default function Platform(){
 
     const toggleCounter = () => {
         setIsRunning(prev => !prev); // 카운팅 기능 켜고 끄기
-      };
+    };
+
 
     useEffect(() => {
         let interval;
@@ -247,7 +246,7 @@ export default function Platform(){
         <div id="imageDetail" style={{display : detailImage}} onClick={() => {
             setDetailImage("none")
         }}>
-            <img src={imgs[num][slideNum]} alt="detailImage"/>
+            <img src={imgs[props.num][slideNum]} alt="detailImage"/>
         </div>
         <div className="signFrame" style={{marginLeft : "40%"}}></div>
         <div className="signFrame" style={{marginLeft : "60%"}}></div>
@@ -338,7 +337,7 @@ export default function Platform(){
         <button className="projectBtn" id="leftBtn" onClick={() => {
             slideAnimation();
             setTimeout(() => {
-                setNum(num - 1 < 0 ? 4 : num - 1)
+                props.setNum(props.num - 1 < 0 ? 4 : props.num - 1)
                 setSlideNum(0)
             }, 3000)
             
@@ -349,11 +348,11 @@ export default function Platform(){
                     <button id="detailBtn" onClick={()=>{
                         setDetailImage("block")
                     }}>+</button>
-                    <img src={imgs[num][0]} className="slideImg" alt="slideImage" style={{opacity : slideNum === 0 ? "100%" : "0%"}}/>
-                    <img src={imgs[num][1]} className="slideImg" alt="slideImage" style={{opacity : slideNum === 1 ? "100%" : "0%"}}/>
-                    <img src={imgs[num][2]} className="slideImg" alt="slideImage" style={{opacity : slideNum === 2 ? "100%" : "0%"}}/>
-                    <img src={imgs[num][3]} className="slideImg" alt="slideImage" style={{opacity : slideNum === 3 ? "100%" : "0%"}}/>
-                    <img src={imgs[num][4]} className="slideImg" alt="slideImage" style={{opacity : slideNum === 4 ? "100%" : "0%"}}/>
+                    <img src={imgs[props.num][0]} className="slideImg" alt="slideImage" style={{opacity : slideNum === 0 ? "100%" : "0%"}}/>
+                    <img src={imgs[props.num][1]} className="slideImg" alt="slideImage" style={{opacity : slideNum === 1 ? "100%" : "0%"}}/>
+                    <img src={imgs[props.num][2]} className="slideImg" alt="slideImage" style={{opacity : slideNum === 2 ? "100%" : "0%"}}/>
+                    <img src={imgs[props.num][3]} className="slideImg" alt="slideImage" style={{opacity : slideNum === 3 ? "100%" : "0%"}}/>
+                    <img src={imgs[props.num][4]} className="slideImg" alt="slideImage" style={{opacity : slideNum === 4 ? "100%" : "0%"}}/>
                     <button className="slideBtn" id="slideLeft" onClick={() => {
                         setTimeout(() => {
                             setSlideNum(slideNum - 1 < 0 ? 4 : slideNum - 1)
@@ -374,25 +373,25 @@ export default function Platform(){
             </div>
             <div className="detailBox">
                 <h2>
-                    {project_info[num].title}
+                    {project_info[props.num].title}
                 </h2>
-                {project_info[num].date}<br/>
+                {project_info[props.num].date}<br/>
                 <div>
-                    {project_info[num].content}
+                    {project_info[props.num].content}
                 </div>
                 <div>
-                    {project_info[num].stack}
+                    {project_info[props.num].stack}
                 </div>
                 <div>
-                    <a className="gitBlock" target="_blank" href={project_info[num].github}>Github</a>
-                    <a className="gitBlock" target="_blank" style={{display : project_info[num].link !== "none" ? "block" : "none"}} href={project_info[num].link}>Demo</a>
+                    <a className="gitBlock" target="_blank" href={project_info[props.num].github}>Github</a>
+                    <a className="gitBlock" target="_blank" style={{display : project_info[props.num].link !== "none" ? "block" : "none"}} href={project_info[props.num].link}>Demo</a>
                 </div> 
             </div>
         </div>
         <button className="projectBtn" id="rightBtn" onClick={() => {
             slideAnimation();
             setTimeout(() => {
-                setNum(num + 1 > 4 ? 0 : num + 1)
+                props.setNum(props.num + 1 > 4 ? 0 : props.num + 1)
                 setSlideNum(0)
             }, 3000)
         }}>&gt;</button>

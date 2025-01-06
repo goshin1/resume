@@ -85,36 +85,34 @@ export default function BusInner(){
                         정보처리기능사 2017.12.27<br/>
                         그래픽기술자격 GTQ 1급 2017.08.11
                     </div>
-                    
                 </div>
                 <div style={{width : "49%", height : "100%", float : "right"}}>
                     <div className="stack">
                         <h2>Stack</h2>
                         <div>
-                            <h3>Front</h3>
-                            <img src="https://img.shields.io/badge/Html5-e22121?style=for-the-badge&logo=Html5&logoColor=white"/>
-                            <img src="https://img.shields.io/badge/Css3-2089eb?style=for-the-badge&logo=Css3&logoColor=white"/>
-                            <img src="https://img.shields.io/badge/Javascript-eba420?style=for-the-badge&logo=Javascript&logoColor=white"/>
-                            <img src="https://img.shields.io/badge/React-2185e2?style=for-the-badge&logo=React&logoColor=white"/>
-                            <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white"/>
+                            <h3>Strong</h3>
+                            <img src="https://img.shields.io/badge/Html5-e22121?style=for-the-badge&logo=Html5&logoColor=white" alt="stack"/>
+                            <img src="https://img.shields.io/badge/Css3-2089eb?style=for-the-badge&logo=Css3&logoColor=white" alt="stack"/>
+                            <img src="https://img.shields.io/badge/Javascript-eba420?style=for-the-badge&logo=Javascript&logoColor=white" alt="stack"/>
+                            <img src="https://img.shields.io/badge/JAVA-000000?style=for-the-badge&logo=Java%20IDEA&logoColor=white" alt="stack"/>
+                            <img src="https://img.shields.io/badge/React-2185e2?style=for-the-badge&logo=React&logoColor=white" alt="stack"/>
+                            <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white" alt="stack"/>
+                            <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring%20Boot&logoColor=white" alt="stack"/>
                         </div>
                         <div>
-                            <h3>Backend</h3>
-                            <img src="https://img.shields.io/badge/JAVA-000000?style=for-the-badge&logo=Java%20IDEA&logoColor=white"/>
-                            <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring%20Boot&logoColor=white"/>
-                            <img src="https://img.shields.io/badge/Javascript-eba420?style=for-the-badge&logo=Javascript&logoColor=white"/>
-                            <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white"/>
-                            <img src="https://img.shields.io/badge/Mysql-255bcf?style=for-the-badge&logo=Mysql&logoColor=white"/>
-                            <img src="https://img.shields.io/badge/Postgresql-234da8?style=for-the-badge&logo=Postgresql&logoColor=white"/>
+                            <h3>Knowledgeable</h3>
+                            <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white" alt="stack"/>
+                            <img src="https://img.shields.io/badge/Mysql-255bcf?style=for-the-badge&logo=Mysql&logoColor=white" alt="stack"/>
+                            <img src="https://img.shields.io/badge/Postgresql-234da8?style=for-the-badge&logo=Postgresql&logoColor=white" alt="stack"/>
                         </div>
                         <div>
                             <h3>Tools</h3>
-                            <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=for-the-badge&logo=Visual Studio Code&logoColor=white"/>
-                            <img src="https://img.shields.io/badge/intellijidea-000000?style=for-the-badge&logo=intellijidea&logoColor=white"/>
-                            <img src="https://img.shields.io/badge/Eclipse-17249b?style=for-the-badge&logo=Eclipse&logoColor=white"/>
-                            <img src="https://img.shields.io/badge/Adobe Photoshop-31A8FF?style=for-the-badge&logo=Adobe Photoshop&logoColor=white"/>
-                            <img src="https://img.shields.io/badge/Adobe Illustrator-FF9A00?style=for-the-badge&logo=Adobe Illustrator&logoColor=white"/>
-                            <img src="https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=Github&logoColor=white"/>
+                            <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=for-the-badge&logo=Visual Studio Code&logoColor=white" alt="stack"/>
+                            <img src="https://img.shields.io/badge/intellijidea-000000?style=for-the-badge&logo=intellijidea&logoColor=white" alt="stack"/>
+                            <img src="https://img.shields.io/badge/Eclipse-17249b?style=for-the-badge&logo=Eclipse&logoColor=white" alt="stack"/>
+                            <img src="https://img.shields.io/badge/Adobe Photoshop-31A8FF?style=for-the-badge&logo=Adobe Photoshop&logoColor=white" alt="stack"/>
+                            <img src="https://img.shields.io/badge/Adobe Illustrator-FF9A00?style=for-the-badge&logo=Adobe Illustrator&logoColor=white" alt="stack"/>
+                            <img src="https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=Github&logoColor=white" alt="stack"/>
                         </div>
                         
                         
