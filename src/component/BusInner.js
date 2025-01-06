@@ -112,6 +112,7 @@ export default function BusInner(){
                             <img src="https://img.shields.io/badge/Eclipse-17249b?style=for-the-badge&logo=Eclipse&logoColor=white" alt="stack"/>
                             <img src="https://img.shields.io/badge/Adobe Photoshop-31A8FF?style=for-the-badge&logo=Adobe Photoshop&logoColor=white" alt="stack"/>
                             <img src="https://img.shields.io/badge/Adobe Illustrator-FF9A00?style=for-the-badge&logo=Adobe Illustrator&logoColor=white" alt="stack"/>
+                            <img src="https://img.shields.io/badge/Amazon AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white"/>
                             <img src="https://img.shields.io/badge/Github-000000?style=for-the-badge&logo=Github&logoColor=white" alt="stack"/>
                         </div>
                         
