@@ -243,6 +243,53 @@ export default function Platform(props){
       }, [isRunning]);
 
     return <div id="platform">
+        <div id="projectRemocon">
+            <button className="projectBlock" style={{color : props.num === 0 ? "orange" : "white"}} onClick={() => {
+                slideAnimation();
+                setTimeout(() => {
+                    props.setNum(0)
+                    setSlideNum(0)
+                }, 3000)
+            }}>
+                Chatpress
+            </button>
+            <button className="projectBlock" style={{color : props.num === 1 ? "orange" : "white"}} onClick={() => {
+                slideAnimation();
+                setTimeout(() => {
+                    props.setNum(1)
+                    setSlideNum(0)
+                }, 3000)
+            }}>
+                Depatorium
+            </button>
+            <button className="projectBlock" style={{color : props.num === 2 ? "orange" : "white"}} onClick={() => {
+                slideAnimation();
+                setTimeout(() => {
+                    props.setNum(2)
+                    setSlideNum(0)
+                }, 3000)
+            }}>
+                영어단어정복 ABC
+            </button>
+            <button className="projectBlock" style={{color : props.num === 3 ? "orange" : "white"}} onClick={() => {
+                slideAnimation();
+                setTimeout(() => {
+                    props.setNum(3)
+                    setSlideNum(0)
+                }, 3000)
+            }}>
+                Universocial
+            </button>
+            <button className="projectBlock" style={{color : props.num === 4 ? "orange" : "white"}} onClick={() => {
+                slideAnimation();
+                setTimeout(() => {
+                    props.setNum(4)
+                    setSlideNum(0)
+                }, 3000)
+            }}>
+                질병관리본부
+            </button>
+        </div>
         <div id="imageDetail" style={{display : detailImage}} onClick={() => {
             setDetailImage("none")
         }}>

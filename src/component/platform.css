@@ -381,6 +381,30 @@
     display: block;
 }
 
+#projectRemocon{
+    top: 50px;
+    left: 30px;
+    padding: 5px;
+    position: absolute;
+    width: 100px;
+    z-index: 3;
+    background-color: rgb(73, 73, 73);
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
+
+#projectRemocon button{  
+    margin: 5px 0px;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(48, 48, 48);
+    color: rgb(255,255,255);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
 .gitBlock{
     margin : 10px 0;
     text-decoration: none;
