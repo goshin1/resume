@@ -96,13 +96,13 @@ export default function BusInner(){
                             <img src="https://img.shields.io/badge/Javascript-eba420?style=for-the-badge&logo=Javascript&logoColor=white" alt="stack"/>
                             <img src="https://img.shields.io/badge/JAVA-000000?style=for-the-badge&logo=Java%20IDEA&logoColor=white" alt="stack"/>
                             <img src="https://img.shields.io/badge/React-2185e2?style=for-the-badge&logo=React&logoColor=white" alt="stack"/>
-                            <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white" alt="stack"/>
                             <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring%20Boot&logoColor=white" alt="stack"/>
+                            <img src="https://img.shields.io/badge/Mysql-255bcf?style=for-the-badge&logo=Mysql&logoColor=white" alt="stack"/>
                         </div>
                         <div>
                             <h3>Knowledgeable</h3>
                             <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white" alt="stack"/>
-                            <img src="https://img.shields.io/badge/Mysql-255bcf?style=for-the-badge&logo=Mysql&logoColor=white" alt="stack"/>
+                            <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white" alt="stack"/>
                             <img src="https://img.shields.io/badge/Postgresql-234da8?style=for-the-badge&logo=Postgresql&logoColor=white" alt="stack"/>
                         </div>
                         <div>
