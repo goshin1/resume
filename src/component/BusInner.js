@@ -101,8 +101,9 @@ export default function BusInner(){
                         </div>
                         <div>
                             <h3>Knowledgeable</h3>
-                            <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white" alt="stack"/>
                             <img src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="stack"/>
+                            <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=Redux&logoColor=white" alt="stack"/>
+                            <img src="https://img.shields.io/badge/Zustand-ff9100?style=for-the-badge&logo=Zustand&logoColor=white" alt="stack"/>
                             <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white" alt="stack"/>
                             <img src="https://img.shields.io/badge/Postgresql-234da8?style=for-the-badge&logo=Postgresql&logoColor=white" alt="stack"/>
                         </div>
