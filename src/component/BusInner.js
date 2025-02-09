@@ -81,7 +81,7 @@ export default function BusInner(){
                     <div className="detailBlock">
                         <h3>License</h3>
                         웹디자인기능사 2019.07.12<br/>
-                        컴퓨터웹그래픽스기능사 2019.04.26<br/>
+                        컴퓨터그래픽기능사 2019.04.26<br/>
                         정보처리기능사 2017.12.27<br/>
                         그래픽기술자격 GTQ 1급 2017.08.11
                     </div>
